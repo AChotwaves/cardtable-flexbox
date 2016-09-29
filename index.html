@@ -10,7 +10,9 @@
 					background-color:green;
 					height: 600px;
 					width:100%;
+					
 					/* flex rules*/
+					
 					display: flex;
 					justify-content:space-around;
 					align-items:center;
@@ -20,17 +22,66 @@
 					height:40%;
 					background-color:white;
 					border-radius: 8px;
-					flex:0 1 160px;
+					
+					font-size:36px;
+					padding:10px;
+					font-weight:;
+					
+					flex:0 0 160px;
+					
+					display:flex;
+					flex-direction: column;
+					justify-content: space-between;
 				
+				}
+				
+				.red{
+					color:red;
+				
+				}
+				.top{
+					text-align:left;
+				}
+				
+				.middle{
+					text-align: center;
+				}
+				
+				.middle img{
+					width:70%;
+				
+				}
+				
+				.bottom{
+					text-align: right;
 				}
 		</style>
 	</head>
 	<body>
 		<div id="table">
-				<div class="card"></div>	
-				<div class="card"></div>	
-				<div class="card"></div>	
-				<div class="card"></div>	
+				<div class="card red">	
+						<div class="top">A</div>
+						<div class="middle"><img src="hearts.jpg"></div>
+						<div class="bottom">A</div>
+				</div>
+				
+					<div class="card">	
+						<div class="top">A</div>
+						<div class="middle"><img src="spades.jpg"></div>
+						<div class="bottom">A</div>
+				</div>
+				
+					<div class="card">	
+						<div class="top">A</div>
+						<div class="middle"><img src="clubs.jpg"></div>
+						<div class="bottom">A</div>
+				</div>
+				
+					<div class="card red">	
+						<div class="top">A</div>
+						<div class="middle"><img src="diamonds.jpg"></div>
+						<div class="bottom">A</div>
+				</div>
 		</div>
 	</body>
 	
